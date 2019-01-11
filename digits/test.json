@@ -1,0 +1,44 @@
+{
+    "digits": [
+        {
+            "digit": "0",
+            "name": "Zero"
+        },
+        {
+            "digit": "1",
+            "name": "One"
+        },
+        {
+            "digit": "2",
+            "name": "Two"
+        },
+        {
+            "digit": "3",
+            "name": "Three"
+        },
+        {
+            "digit": "4",
+            "name": "Four"
+        },
+        {
+            "digit": "5",
+            "name": "Five"
+        },
+        {
+            "digit": "6",
+            "name": "Six"
+        },
+        {
+            "digit": "7",
+            "name": "Seven"
+        },
+        {
+            "digit": "8",
+            "name": "Eight"
+        },
+        {
+            "digit": "9",
+            "name": "Nine"
+        }
+    ]
+} 

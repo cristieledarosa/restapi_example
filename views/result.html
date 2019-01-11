@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script>
+        window.onload = function () {
+            var sDomain = "http://localhost:3000";
+
+            $.get(sDomain + "/digit", function (data, status) {
+                document.getElementById("outputDigit").innerHTML = data ? data : 'Not found';
+            });
+        };    
+    </script>
+    <title>Result</title>
+</head>
+
+<body>
+    <form action="/" method="POST" id="output">
+        <h1>You have typed: 
+            <h2 id="outputDigit" name="outputDigit"></h2>
+        </h1>
+        <button type="submit">Voltar</button>
+    </form>
+</body>
+
+</html>
